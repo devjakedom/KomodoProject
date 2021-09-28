@@ -10,6 +10,8 @@ namespace DevTeams_Console
     {
         static void Main(string[] args)
         {
+            ProgramUI UI = new ProgramUI();
+            UI.run();
         }
     }
 }
